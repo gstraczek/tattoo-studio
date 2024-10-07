@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -6,7 +7,7 @@ export default function Navbar() {
     <div className="container mx-auto flex items-center justify-between">
       {/* Logo */}
       <Link href="/" className="flex items-center text-xl font-bold text-blue-600">
-        <img src="/logo.jfif" alt="Logo" className="h-8 mr-2" />
+        <Image src="/logo.jfif" alt="Logo" className="h-8 mr-2" />
       </Link>
 
       {/* Navigation Links */}
